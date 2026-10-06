@@ -52,6 +52,9 @@ jobs:
             zstd
           sudo locale-gen en_US.UTF-8
 
+      - name: Allow BitBake user namespaces
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+
       - name: Parse layer metadata
         shell: bash
         run: |
