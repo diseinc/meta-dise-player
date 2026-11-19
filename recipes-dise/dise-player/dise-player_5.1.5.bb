@@ -3,10 +3,10 @@ DESCRIPTION = "Installs the prebuilt Dise Player integration package under /opt/
 HOMEPAGE = "https://github.com/diseinc/meta-dise-player"
 LICENSE = "CLOSED"
 
-PV = "5.1.4"
+PV = "5.1.5"
 
-SRC_URI = "https://github.com/diseinc/meta-dise-player/releases/download/v5.1.4/dise-player-5.1.4.tar.gz;subdir=dise-player-package"
-SRC_URI[sha256sum] = "0ffab20e5daf96f42ef20debeed7035a99b44b4cf41063612ec170c8528b4e51"
+SRC_URI = "https://github.com/diseinc/meta-dise-player/releases/download/v5.1.5/dise-player-5.1.5.tar.gz;subdir=dise-player-package"
+SRC_URI[sha256sum] = "eab32e9f82919be36639032d237287d63907bfa98ce1a912d6807441d3a05c5f"
 
 S = "${WORKDIR}/dise-player-package"
 
