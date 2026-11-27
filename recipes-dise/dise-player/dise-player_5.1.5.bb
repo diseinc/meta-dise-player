@@ -19,6 +19,7 @@ FILES:${PN} = "/opt/mqcef"
 
 RDEPENDS:${PN} = " \
     bash \
+    jq \
     libx11 \
     libxext \
     libxcb \

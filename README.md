@@ -19,7 +19,9 @@ From an initialized Yocto build environment, add the layer with:
 bitbake-layers add-layer /path/to/meta-dise-player
 ```
 
-The layer depends on the Yocto `core` layer.
+The layer metadata depends on the Yocto `core` layer. Building the player
+also requires layers providing its runtime packages, including `jq` from
+`meta-openembedded`'s `meta-oe` layer.
 
 ## Include the Dise Player in an image
 
